@@ -1,0 +1,115 @@
+@font-face {
+    font-family: inter-regular;
+    src: url(inter/Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: inter-extraBold;
+    src: url(inter/Inter-ExtraBold.otf);
+}
+
+@font-face {
+    font-family: inter-semiBold;
+    src: url(inter/Inter-SemiBold.otf);
+}
+
+@font-face {
+    font-family: inter-medium;
+    src: url(inter/Inter-Medium.otf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    background-size: cover, 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: #6943FF;
+    width: 550px;
+    height: 285px;
+    margin-top: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ #tittle {
+    margin-top: 33px;
+    color: #ffff;
+    font-family: inter-extraBold;
+    font-size: 28px;
+ }
+
+ #input-el {
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    font-family: inter-extraBold;
+    font-size: 58px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 30px;
+    margin-bottom: 25px;
+ }
+
+ #convert-btn {
+    font-family: inter-medium;
+    font-size: 16px;
+    color: #3D3D3D;
+    background-color: #ffff;
+    border-radius: 5px;
+    border: none;
+    width: 117px;
+    height: 42px;
+    margin-bottom: 34px;
+ }
+
+.container {
+    background-color: #1F2937;
+    width: 550px;
+    height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 124px;
+}
+
+.length-section, .volume-section, .mass-section{
+    text-align: center;
+    background-color: #273549;
+    width: 500px;
+    height: 108.57px;
+}
+.length-section{
+    margin-top: 36px;
+    margin-bottom: 23.43px;
+}
+.volume-section{
+    margin-bottom: 23.43px;
+}
+.mass-section {
+    margin-bottom: 35px
+}
+
+#length-tittle, #volume-tittle, #mass-tittle{
+    font-family: inter-semiBold;
+    font-size: 20px;
+    color: #CCC1FF;
+    margin-top: 31px;
+}
+
+p {
+    font-family: inter-regular;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 1);
+}
